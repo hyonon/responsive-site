@@ -187,7 +187,7 @@ section h2 {
 #detail .works-box a .works-box-inner .button-golondon {
   margin: auto;
   text-align: center;
-  padding: 5px 0;
+  padding: 5px 5px;
   width: 180px;
   display: block;
   color: #FFF;
@@ -206,6 +206,12 @@ section h2 {
   content: '';
   display: block;
   clear: both;
+}
+
+@media (max-width: 768px) {
+  .box {
+    height: 250px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
